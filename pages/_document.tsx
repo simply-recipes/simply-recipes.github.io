@@ -59,13 +59,21 @@ class CustomDocument extends Document {
     return (
       <Html lang="en" className={roboto.className}>
         <Head>
-          {/* PWA primary color */}
-          <meta name="theme-color" content={theme.palette.primary.main} />
+          {/* Favicon */}
           <link rel="shortcut icon" href="/favicon.ico" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+          <link rel="manifest" href="/site.webmanifest"/>
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#51a4fb"/>
+          <meta name="msapplication-TileColor" content="#2d89ef"/>
+          <link rel="icon" href="/favicon.ico" />
           <meta name="emotion-insertion-point" content="" />
           {(this.props as any).emotionStyleTags}
 
-          <link rel="icon" href="/favicon.ico" />
+          {/* PWA primary color */}
+          <meta name="theme-color" content={theme.palette.primary.main} />
+
           <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
         </Head>
         <body>

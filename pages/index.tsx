@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import styles from '../styles/Home.module.css';
-import Page from "../src/Page";
+import Page from '../src/Page';
 
 class Home extends Page {
   render() {
@@ -41,7 +41,7 @@ class Home extends Page {
           <Link
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
-            >
+          >
             <h2>Examples &rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </Link>
@@ -51,7 +51,7 @@ class Home extends Page {
             target="_blank"
             rel="noopener noreferrer"
             className={styles.card}
-            >
+          >
             <h2>Deploy &rarr;</h2>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.

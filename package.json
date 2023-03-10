@@ -1,8 +1,8 @@
 {
-  "name": "simply-recipes",
+  "name": "@simply-recipes/simply-recipes.github.io",
   "version": "1.0.0-dev",
-  "description": "TODO",
-  "keywords": [],
+  "description": "Simply beautiful recipe book",
+  "keywords": ["recipe", "cooking"],
   "homepage": "https://simply-recipes.github.io/",
   "bugs": "https://github.com/simply-recipes/simply-recipes.github.io/issues",
   "license": "unlicened",
@@ -20,23 +20,22 @@
   },
   "dependencies": {
     "@emotion/cache": "^11.10.5",
-    "@emotion/react": "^11.10.5",
+    "@emotion/react": "^11.10.6",
     "@emotion/server": "^11.10.0",
-    "@emotion/styled": "^11.10.5",
-    "@mui/icons-material": "^5.10.16",
-    "@mui/material": "^5.10.16",
-    "@next/font": "^13.0.5",
-    "next": "^13.0.5",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.12",
+    "next": "^13.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^18.11.9",
-    "@types/react": "^18.0.25",
-    "@types/react-dom": "^18.0.9",
-    "eslint": "^8.28.0",
-    "eslint-config-next": "^13.0.5",
-    "typescript": "^4.9.4"
+    "@types/node": "^18.15.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "^8.35.0",
+    "eslint-config-next": "^13.2.4",
+    "typescript": "^4.9.5"
   },
   "engines": {
     "node": ">=18"
